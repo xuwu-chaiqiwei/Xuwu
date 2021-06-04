@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Xuwu_Example' do
+  pod 'Xuwu', :path => '../'
+
+  target 'Xuwu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
