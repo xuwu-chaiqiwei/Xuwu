@@ -1,10 +1,29 @@
 PODS:
   - AgoraRtcEngine_iOS (3.4.0)
+  - Alamofire (5.4.3)
+  - CryptoSwift (1.4.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
   - RongCloudIM/IMKit (4.0.3.7):
     - RongCloudIM/IMLib
   - RongCloudIM/IMLib (4.0.3.7)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - SwiftProtobuf (1.17.0)
+  - WCDB.swift (1.0.8.2):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
   - Xuwu (0.1.0):
+    - Xuwu/DB (= 0.1.0)
     - Xuwu/IM (= 0.1.0)
+  - Xuwu/DB (0.1.0):
+    - CryptoSwift
+    - Moya (= 14.0.0)
+    - SwiftProtobuf
+    - WCDB.swift
   - Xuwu/IM (0.1.0):
     - AgoraRtcEngine_iOS (= 3.4.0)
     - RongCloudIM/IMKit (= 4.0.3.7)
@@ -15,7 +34,14 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AgoraRtcEngine_iOS
+    - Alamofire
+    - CryptoSwift
+    - Moya
     - RongCloudIM
+    - SQLiteRepairKit
+    - SwiftProtobuf
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
 
 EXTERNAL SOURCES:
   Xuwu:
@@ -23,9 +49,16 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AgoraRtcEngine_iOS: 7d78e5c8e1ac37af3dc0e9d83961e651c8f62c15
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   RongCloudIM: a5b331aeb4cbfdda8bfe339fd8d9f944d8a62b9f
-  Xuwu: 1bec852227355ce83ff8dad4b74cade3693b3a53
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  SwiftProtobuf: 9c85136c6ba74b0a1b84279dbf0f6db8efb714e0
+  WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  Xuwu: e0abf337ff41dbb58be3a8670599ccead9930546
 
-PODFILE CHECKSUM: 86c2b1a5397af23f537870e60e9c61ac39a2da72
+PODFILE CHECKSUM: c0ad92ee1d5c989fbb6f42b1811b417556044596
 
 COCOAPODS: 1.10.1

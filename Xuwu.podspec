@@ -32,11 +32,21 @@ Pod::Spec.new do |s|
   s.swift_versions = '5'
   s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  
   s.subspec 'IM' do |im|
     im.source_files = 'Xuwu/Classes/IM/Classes/*'
     im.vendored_frameworks = 'Xuwu/Classes/IM/Frameworks/*.framework'
     im.dependency 'AgoraRtcEngine_iOS', '3.4.0'
     im.dependency 'RongCloudIM/IMKit', '4.0.3.7'
+  end
+  
+  s.subspec 'DB' do |db|
+    db.source_files = 'Xuwu/Classes/DB/Classes/*'
+    db.vendored_frameworks = 'Xuwu/Classes/DB/Frameworks/*.framework'
+    db.dependency 'SwiftProtobuf'
+    db.dependency 'Moya', '14.0.0'
+    db.dependency 'WCDB.swift'
+    db.dependency 'CryptoSwift'
   end
   
 end

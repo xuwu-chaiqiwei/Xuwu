@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        SLIM.register(<#T##appkey: String##String#>)
+        SLIM.register("")
     }
 
     override func didReceiveMemoryWarning() {

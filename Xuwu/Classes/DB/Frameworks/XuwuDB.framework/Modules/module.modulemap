@@ -1,0 +1,11 @@
+framework module XuwuDB {
+  umbrella header "XuwuDB.h"
+
+  export *
+  module * { export * }
+}
+
+module XuwuDB.Swift {
+    header "XuwuDB-Swift.h"
+    requires objc
+}
