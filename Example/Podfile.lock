@@ -1,0 +1,31 @@
+PODS:
+  - AgoraRtcEngine_iOS (3.4.0)
+  - RongCloudIM/IMKit (4.0.3.7):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (4.0.3.7)
+  - Xuwu (0.1.0):
+    - Xuwu/IM (= 0.1.0)
+  - Xuwu/IM (0.1.0):
+    - AgoraRtcEngine_iOS (= 3.4.0)
+    - RongCloudIM/IMKit (= 4.0.3.7)
+
+DEPENDENCIES:
+  - Xuwu (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+    - RongCloudIM
+
+EXTERNAL SOURCES:
+  Xuwu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: 7d78e5c8e1ac37af3dc0e9d83961e651c8f62c15
+  RongCloudIM: a5b331aeb4cbfdda8bfe339fd8d9f944d8a62b9f
+  Xuwu: 1bec852227355ce83ff8dad4b74cade3693b3a53
+
+PODFILE CHECKSUM: 86c2b1a5397af23f537870e60e9c61ac39a2da72
+
+COCOAPODS: 1.10.1

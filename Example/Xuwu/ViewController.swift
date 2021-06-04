@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import XuwuIM
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        SLIM.register(<#T##appkey: String##String#>)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,34 +9,34 @@
 Pod::Spec.new do |s|
   s.name             = 'Xuwu'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Xuwu.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A Library of Xuwu.'
+  
+  # This description is used to generate tags and improve search results.
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/chaiqiwei-mini/Xuwu'
+  TODO: Add long description of the pod here.
+  DESC
+  
+  s.homepage         = 'https://github.com/xuwu-chaiqiwei/Xuwu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chaiqiwei-mini' => 'chaiqiwei@kekestar.com' }
-  s.source           = { :git => 'https://github.com/chaiqiwei-mini/Xuwu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:xuwu-chaiqiwei/Xuwu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'Xuwu/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Xuwu' => ['Xuwu/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '10.0'
+  s.swift_versions = '5'
+  s.static_framework = true
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.subspec 'IM' do |im|
+    im.source_files = 'Xuwu/Classes/IM/Classes/*'
+    im.vendored_frameworks = 'Xuwu/Classes/IM/Frameworks/*.framework'
+    im.dependency 'AgoraRtcEngine_iOS', '3.4.0'
+    im.dependency 'RongCloudIM/IMKit', '4.0.3.7'
+  end
+  
 end
