@@ -4,7 +4,7 @@ platform :ios, '10.0'
 
 target 'Xuwu_Example' do
   pod 'Xuwu', :path => '../'
-#pod 'Xuwu'
+#  pod 'Xuwu', '~> 0.1.1'
 
   target 'Xuwu_Tests' do
     inherit! :search_paths

@@ -8,6 +8,8 @@
 
 import UIKit
 import XuwuIM
+import XuwuDB
+import XuwuUIKit
 
 class ViewController: UIViewController {
 

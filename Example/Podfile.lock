@@ -2,31 +2,56 @@ PODS:
   - AgoraRtcEngine_iOS (3.4.0)
   - Alamofire (5.4.3)
   - CryptoSwift (1.4.0)
+  - DZNEmptyDataSet (1.8.1)
+  - HBDNavigationBar (1.8.0)
+  - JXSegmentedView (1.2.7)
+  - Kingfisher (6.2.1)
+  - MJRefresh (3.6.1)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - RongCloudIM/IMKit (4.0.3.7):
     - RongCloudIM/IMLib
   - RongCloudIM/IMLib (4.0.3.7)
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - SwiftProtobuf (1.17.0)
+  - TangramKit (1.4.2)
+  - Toast-Swift (5.0.1)
   - WCDB.swift (1.0.8.2):
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - WCDBOptimizedSQLCipher (1.2.1)
-  - Xuwu (0.1.0):
-    - Xuwu/DB (= 0.1.0)
-    - Xuwu/IM (= 0.1.0)
-  - Xuwu/DB (0.1.0):
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+  - Xuwu (0.1.1):
+    - Xuwu/DB (= 0.1.1)
+    - Xuwu/IM (= 0.1.1)
+    - Xuwu/UIKit (= 0.1.1)
+  - Xuwu/DB (0.1.1):
     - CryptoSwift
     - Moya (= 14.0.0)
     - SwiftProtobuf
     - WCDB.swift
-  - Xuwu/IM (0.1.0):
+    - XCGLogger
+  - Xuwu/IM (0.1.1):
     - AgoraRtcEngine_iOS (= 3.4.0)
     - RongCloudIM/IMKit (= 4.0.3.7)
+  - Xuwu/UIKit (0.1.1):
+    - DZNEmptyDataSet
+    - HBDNavigationBar
+    - JXSegmentedView
+    - Kingfisher (= 6.2.1)
+    - MJRefresh
+    - SwiftProtobuf
+    - TangramKit
+    - Toast-Swift
 
 DEPENDENCIES:
   - Xuwu (from `../`)
@@ -36,12 +61,21 @@ SPEC REPOS:
     - AgoraRtcEngine_iOS
     - Alamofire
     - CryptoSwift
+    - DZNEmptyDataSet
+    - HBDNavigationBar
+    - JXSegmentedView
+    - Kingfisher
+    - MJRefresh
     - Moya
+    - ObjcExceptionBridging
     - RongCloudIM
     - SQLiteRepairKit
     - SwiftProtobuf
+    - TangramKit
+    - Toast-Swift
     - WCDB.swift
     - WCDBOptimizedSQLCipher
+    - XCGLogger
 
 EXTERNAL SOURCES:
   Xuwu:
@@ -51,14 +85,23 @@ SPEC CHECKSUMS:
   AgoraRtcEngine_iOS: 7d78e5c8e1ac37af3dc0e9d83961e651c8f62c15
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HBDNavigationBar: 8a24d0348ad4371614569e3d015d46e41824b061
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   RongCloudIM: a5b331aeb4cbfdda8bfe339fd8d9f944d8a62b9f
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   SwiftProtobuf: 9c85136c6ba74b0a1b84279dbf0f6db8efb714e0
+  TangramKit: aad3ab8f9617418c9da96d59cddd71134ae8af83
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
-  Xuwu: e0abf337ff41dbb58be3a8670599ccead9930546
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+  Xuwu: e855749368f9160dfd3242d75e005d11064f0bc0
 
-PODFILE CHECKSUM: c0ad92ee1d5c989fbb6f42b1811b417556044596
+PODFILE CHECKSUM: efdf5f5807e54c14da834f4c9a7538991f22c90b
 
 COCOAPODS: 1.10.1
