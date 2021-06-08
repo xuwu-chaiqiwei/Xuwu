@@ -30,20 +30,20 @@ PODS:
     - XCGLogger/Core (= 7.0.1)
   - XCGLogger/Core (7.0.1):
     - ObjcExceptionBridging
-  - Xuwu (0.1.1):
-    - Xuwu/DB (= 0.1.1)
-    - Xuwu/IM (= 0.1.1)
-    - Xuwu/UIKit (= 0.1.1)
-  - Xuwu/DB (0.1.1):
+  - Xuwu (0.1.2):
+    - Xuwu/DB (= 0.1.2)
+    - Xuwu/IM (= 0.1.2)
+    - Xuwu/UIKit (= 0.1.2)
+  - Xuwu/DB (0.1.2):
     - CryptoSwift
     - Moya (= 14.0.0)
     - SwiftProtobuf
     - WCDB.swift
     - XCGLogger
-  - Xuwu/IM (0.1.1):
+  - Xuwu/IM (0.1.2):
     - AgoraRtcEngine_iOS (= 3.4.0)
     - RongCloudIM/IMKit (= 4.0.3.7)
-  - Xuwu/UIKit (0.1.1):
+  - Xuwu/UIKit (0.1.2):
     - DZNEmptyDataSet
     - HBDNavigationBar
     - JXSegmentedView
@@ -100,8 +100,8 @@ SPEC CHECKSUMS:
   WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
-  Xuwu: e855749368f9160dfd3242d75e005d11064f0bc0
+  Xuwu: 62525417b75edfe18247e2ed4c9da177c6d4fbc0
 
-PODFILE CHECKSUM: efdf5f5807e54c14da834f4c9a7538991f22c90b
+PODFILE CHECKSUM: dfa15f5cbc342c753cb8d83309e8b492732019eb
 
 COCOAPODS: 1.10.1
