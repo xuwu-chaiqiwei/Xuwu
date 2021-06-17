@@ -217,7 +217,7 @@ SWIFT_CLASS("_TtC6XuwuIM7SLAgora")
 @interface SLAgora : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLAgora * _Nonnull shared;)
 + (SLAgora * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-+ (void)register:(NSString * _Nonnull)appId;
++ (void)registerApp:(NSString * _Nonnull)appId;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -301,8 +301,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLIM * _Nonn
 @property (nonatomic) CGFloat portraitRadius;
 @property (nonatomic, copy) NSString * _Nonnull rc_userId_pre;
 /// 初始化IM
-+ (void)register:(NSString * _Nonnull)appkey;
++ (void)registerAppWithKey:(NSString * _Nonnull)key;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface SLIM (SWIFT_EXTENSION(XuwuIM)) <RCIMConnectionStatusDelegate>
+- (void)onRCIMConnectionStatusChanged:(RCConnectionStatus)status;
 @end
 
 @class RCMessage;
@@ -328,19 +333,37 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLIM * _Nonn
 - (void)getUserInfoWithUserId:(NSString * _Null_unspecified)userId completion:(void (^ _Null_unspecified)(RCUserInfo * _Nullable))completion;
 @end
 
-
-@interface SLIM (SWIFT_EXTENSION(XuwuIM)) <RCIMConnectionStatusDelegate>
-- (void)onRCIMConnectionStatusChanged:(RCConnectionStatus)status;
-@end
-
 @class RCMessageContent;
 
 @interface SLIM (SWIFT_EXTENSION(XuwuIM))
++ (void)loginToken:(NSString * _Nonnull)token success:(void (^ _Nonnull)(NSString * _Nullable))success fail:(void (^ _Nonnull)(NSInteger))fail;
+/// 加入聊天室
++ (void)joinChatRoomId:(NSString * _Nonnull)roomId success:(void (^ _Nonnull)(void))success fail:(void (^ _Nonnull)(NSInteger))fail;
+/// 退出聊天室
++ (void)quitChatRoomId:(NSString * _Nonnull)roomId success:(void (^ _Nonnull)(void))success fail:(void (^ _Nonnull)(NSInteger))fail;
+/// 发送聊天室消息
++ (void)sendChatRoomMessageContent:(NSString * _Nonnull)targetId content:(RCMessageContent * _Nonnull)content success:(void (^ _Nonnull)(void))success fail:(void (^ _Nonnull)(NSInteger))fail;
+/// 监听融云链接状态
++ (void)addConnectionStatusHandleBlock:(void (^ _Nonnull)(NSInteger))block;
+@end
+
+
+@interface SLIM (SWIFT_EXTENSION(XuwuIM))
+/// 添加消息监听
+/// \param target 目标
+///
+/// \param messages 要监听的消息类型
+///
+/// \param block 回调
+///
 + (void)addTarget:(id _Nullable)target messages:(NSArray<SWIFT_METATYPE(RCMessageContent)> * _Nonnull)messages block:(void (^ _Nullable)(RCMessage * _Nonnull))block;
 /// 添加消息拦截处理
 + (void)addMessageHandle:(NSArray<RCMessage *> * _Nonnull (^ _Nullable)(RCMessage * _Nonnull))block;
+/// 添加用户信息提供者
 + (void)addUserInfoHandle:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(RCUserInfo * _Nullable)))block;
+/// 添加群组信息提供者
 + (void)addGroupInfoHandle:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(RCGroup * _Nullable)))block;
+/// 添加群组成员信息提供者
 + (void)addMembersHandle:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(NSArray<NSString *> * _Nullable)))block;
 + (void)removeTarget:(id _Nullable)target;
 /// 发送本地消息
@@ -356,6 +379,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLIM * _Nonn
 /// \param token 设备token
 ///
 + (void)registerDeviceToken:(NSData * _Nonnull)token;
++ (BOOL)connectioned SWIFT_WARN_UNUSED_RESULT;
 /// 退出IM
 + (void)logout;
 /// 获取消息未读数量

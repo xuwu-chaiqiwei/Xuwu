@@ -449,6 +449,7 @@ SWIFT_CLASS("_TtC9XuwuUIKit11SLInputView")
 @property (nonatomic, copy) void (^ _Nullable textChangeBlock)(SLInputView * _Nonnull);
 - (void)layoutSubviews;
 - (void)reset;
+- (void)textChange;
 - (nonnull instancetype)initWithFrame:(CGRect)frame textContainer:(NSTextContainer * _Nullable)textContainer SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
@@ -483,7 +484,12 @@ SWIFT_CLASS("_TtC9XuwuUIKit11SLPopupView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic) UIEdgeInsets padding;
 @property (nonatomic) CGFloat popupRadius;
+/// 是否需要蒙层
 @property (nonatomic) BOOL maskNeed;
+/// 蒙层是否接收点击事件
+@property (nonatomic) BOOL maskTouch;
+/// 点击蒙层是否隐藏弹窗
+@property (nonatomic) BOOL maskTouchDismiss;
 - (void)dismissWithComplete:(void (^ _Nullable)(void))complete;
 @end
 
