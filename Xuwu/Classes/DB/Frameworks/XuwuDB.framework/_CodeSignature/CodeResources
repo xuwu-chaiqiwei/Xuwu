@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		LCQibIO5jNyesb6K0lQp6VTNJvM=
+		</data>
 		<key>Headers/XuwuDB-Swift.h</key>
 		<data>
-		SOs0q5eRHmD9eG4bBQRzzjDfKbU=
+		STeu43jpETu1h33NpxjTjY18RCc=
 		</data>
 		<key>Headers/XuwuDB.h</key>
 		<data>
@@ -14,31 +18,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		l109Wr1PH0ZPxHAMDh79Ox2LOYo=
+		iHB64H5hjt+LGQTmHvCS3hp/GEc=
+		</data>
+		<key>Modules/.DS_Store</key>
+		<data>
+		5YnB+EBzbIQXr+YS9eha4XwqVrM=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<data>
+		EDx0apdKSGDvnxujba3jbutyJSY=
 		</data>
 		<key>Modules/XuwuDB.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		rFcozL+S3TSWfLoOMNFh+CTM0OU=
+		pJ4su+b+oU6t00zmh1GEje6bSY4=
 		</data>
 		<key>Modules/XuwuDB.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		rFcozL+S3TSWfLoOMNFh+CTM0OU=
+		pJ4su+b+oU6t00zmh1GEje6bSY4=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<data>
+		EDx0apdKSGDvnxujba3jbutyJSY=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<data>
+		EDx0apdKSGDvnxujba3jbutyJSY=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/arm.swiftdoc</key>
+		<data>
+		NPa3FLTDsEcFt3vG+BLf1nb45rE=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/arm.swiftmodule</key>
+		<data>
+		dvDn0rptXEYwe3yS3VH1LHT6Tpk=
 		</data>
 		<key>Modules/XuwuDB.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		H6L40Z+Slmxrg83Caz4Si48cfsc=
+		W57vRjXsfZn8X3xPdZOj9MPX7n0=
 		</data>
 		<key>Modules/XuwuDB.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RpbLsdVvtiSLDfoMceffYSNFenQ=
+		M7opvhdyJVkO/hO+rsGZY/l1r/k=
 		</data>
 		<key>Modules/XuwuDB.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		H6L40Z+Slmxrg83Caz4Si48cfsc=
+		W57vRjXsfZn8X3xPdZOj9MPX7n0=
 		</data>
 		<key>Modules/XuwuDB.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RpbLsdVvtiSLDfoMceffYSNFenQ=
+		M7opvhdyJVkO/hO+rsGZY/l1r/k=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/armv7-apple-ios.swiftdoc</key>
+		<data>
+		NPa3FLTDsEcFt3vG+BLf1nb45rE=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<data>
+		dvDn0rptXEYwe3yS3VH1LHT6Tpk=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/armv7.swiftdoc</key>
+		<data>
+		NPa3FLTDsEcFt3vG+BLf1nb45rE=
+		</data>
+		<key>Modules/XuwuDB.swiftmodule/armv7.swiftmodule</key>
+		<data>
+		dvDn0rptXEYwe3yS3VH1LHT6Tpk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SOs0q5eRHmD9eG4bBQRzzjDfKbU=
+			STeu43jpETu1h33NpxjTjY18RCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			XVF/gcgluTLfmYrbgNL0PEN1YT2CbG67SAGzdx2VLW8=
+			KThfOOgA73z2aBr7gFMTmKNLBpaI2Yo3OyQsYNgJ2/c=
 			</data>
 		</dict>
 		<key>Headers/XuwuDB.h</key>
@@ -69,70 +113,169 @@
 			4+WMmTd6WccMqqBVDv9vkuY6hoXONav/nF5NXf3mnsY=
 			</data>
 		</dict>
+		<key>Modules/XuwuDB.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EDx0apdKSGDvnxujba3jbutyJSY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Av3lNN5jYFBWm2FKTRzJ6BF26XRIjBdB2/MujL0vZ/0=
+			</data>
+		</dict>
 		<key>Modules/XuwuDB.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rFcozL+S3TSWfLoOMNFh+CTM0OU=
+			pJ4su+b+oU6t00zmh1GEje6bSY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZiqpTHj0K851CpqdW7atDm6voveA1Cwo1HLv1tE6D30=
+			G8p1Je62UEATbiudgsJooZ1mZsaln0ZL+VxpxRaHDOw=
 			</data>
 		</dict>
 		<key>Modules/XuwuDB.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rFcozL+S3TSWfLoOMNFh+CTM0OU=
+			pJ4su+b+oU6t00zmh1GEje6bSY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZiqpTHj0K851CpqdW7atDm6voveA1Cwo1HLv1tE6D30=
+			G8p1Je62UEATbiudgsJooZ1mZsaln0ZL+VxpxRaHDOw=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EDx0apdKSGDvnxujba3jbutyJSY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Av3lNN5jYFBWm2FKTRzJ6BF26XRIjBdB2/MujL0vZ/0=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EDx0apdKSGDvnxujba3jbutyJSY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Av3lNN5jYFBWm2FKTRzJ6BF26XRIjBdB2/MujL0vZ/0=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/arm.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NPa3FLTDsEcFt3vG+BLf1nb45rE=
+			</data>
+			<key>hash2</key>
+			<data>
+			NBWPldjOTw0uyh7bvheMfNl4TY4Pa3A3912zXjp01OI=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/arm.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dvDn0rptXEYwe3yS3VH1LHT6Tpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ynSYlKSAqRE8sNOdA+Qow+7uXh+zOIp3Zg9SZ3x+19g=
 			</data>
 		</dict>
 		<key>Modules/XuwuDB.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H6L40Z+Slmxrg83Caz4Si48cfsc=
+			W57vRjXsfZn8X3xPdZOj9MPX7n0=
 			</data>
 			<key>hash2</key>
 			<data>
-			h91xoO5ypG9BQCQytPn46OaynI3OgMTM+81DwAHc5lw=
+			SvninSWQ7wUp6HnkDYsHfEfo9772IdUUPyKDG5J3WbE=
 			</data>
 		</dict>
 		<key>Modules/XuwuDB.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RpbLsdVvtiSLDfoMceffYSNFenQ=
+			M7opvhdyJVkO/hO+rsGZY/l1r/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			FG+DdUN1lhWoI0F5uZpFIp0zwG6ZuS2Hzq+YJFPvDUw=
+			sZRhr4A4xhBfigS4efAypmY/X0BDogSWbPVv30ilVHg=
 			</data>
 		</dict>
 		<key>Modules/XuwuDB.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H6L40Z+Slmxrg83Caz4Si48cfsc=
+			W57vRjXsfZn8X3xPdZOj9MPX7n0=
 			</data>
 			<key>hash2</key>
 			<data>
-			h91xoO5ypG9BQCQytPn46OaynI3OgMTM+81DwAHc5lw=
+			SvninSWQ7wUp6HnkDYsHfEfo9772IdUUPyKDG5J3WbE=
 			</data>
 		</dict>
 		<key>Modules/XuwuDB.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RpbLsdVvtiSLDfoMceffYSNFenQ=
+			M7opvhdyJVkO/hO+rsGZY/l1r/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			FG+DdUN1lhWoI0F5uZpFIp0zwG6ZuS2Hzq+YJFPvDUw=
+			sZRhr4A4xhBfigS4efAypmY/X0BDogSWbPVv30ilVHg=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/armv7-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NPa3FLTDsEcFt3vG+BLf1nb45rE=
+			</data>
+			<key>hash2</key>
+			<data>
+			NBWPldjOTw0uyh7bvheMfNl4TY4Pa3A3912zXjp01OI=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/armv7-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dvDn0rptXEYwe3yS3VH1LHT6Tpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ynSYlKSAqRE8sNOdA+Qow+7uXh+zOIp3Zg9SZ3x+19g=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/armv7.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NPa3FLTDsEcFt3vG+BLf1nb45rE=
+			</data>
+			<key>hash2</key>
+			<data>
+			NBWPldjOTw0uyh7bvheMfNl4TY4Pa3A3912zXjp01OI=
+			</data>
+		</dict>
+		<key>Modules/XuwuDB.swiftmodule/armv7.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dvDn0rptXEYwe3yS3VH1LHT6Tpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ynSYlKSAqRE8sNOdA+Qow+7uXh+zOIp3Zg9SZ3x+19g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
