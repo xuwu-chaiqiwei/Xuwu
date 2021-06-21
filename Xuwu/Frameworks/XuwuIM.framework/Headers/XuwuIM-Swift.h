@@ -224,9 +224,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLAgora * _N
 @end
 
 @class AgoraRtcAudioVolumeInfo;
+@class AgoraRtcRemoteAudioStats;
 
 @interface SLAgora (SWIFT_EXTENSION(XuwuIM))
-+ (void)addTarget:(id _Nullable)target speaksblock:(void (^ _Nullable)(NSArray<AgoraRtcAudioVolumeInfo *> * _Nonnull))speaksblock;
++ (void)addTarget:(id _Nullable)target speaksblock:(void (^ _Nullable)(NSArray<AgoraRtcAudioVolumeInfo *> * _Nonnull))speaksblock netdelayBlock:(void (^ _Nullable)(AgoraRtcRemoteAudioStats * _Nonnull))netdelayBlock netqualityBlock:(void (^ _Nullable)(AgoraNetworkQuality))netqualityBlock;
 @end
 
 @class AgoraRtcEngineKit;
@@ -265,7 +266,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLAgora * _N
 
 @class AgoraRtcChannel;
 @class AgoraChannelStats;
-@class AgoraRtcRemoteAudioStats;
 
 @interface SLAgora (SWIFT_EXTENSION(XuwuIM)) <AgoraRtcChannelDelegate>
 /// 当前用户加入频道
@@ -621,9 +621,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLAgora * _N
 @end
 
 @class AgoraRtcAudioVolumeInfo;
+@class AgoraRtcRemoteAudioStats;
 
 @interface SLAgora (SWIFT_EXTENSION(XuwuIM))
-+ (void)addTarget:(id _Nullable)target speaksblock:(void (^ _Nullable)(NSArray<AgoraRtcAudioVolumeInfo *> * _Nonnull))speaksblock;
++ (void)addTarget:(id _Nullable)target speaksblock:(void (^ _Nullable)(NSArray<AgoraRtcAudioVolumeInfo *> * _Nonnull))speaksblock netdelayBlock:(void (^ _Nullable)(AgoraRtcRemoteAudioStats * _Nonnull))netdelayBlock netqualityBlock:(void (^ _Nullable)(AgoraNetworkQuality))netqualityBlock;
 @end
 
 @class AgoraRtcEngineKit;
@@ -662,7 +663,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SLAgora * _N
 
 @class AgoraRtcChannel;
 @class AgoraChannelStats;
-@class AgoraRtcRemoteAudioStats;
 
 @interface SLAgora (SWIFT_EXTENSION(XuwuIM)) <AgoraRtcChannelDelegate>
 /// 当前用户加入频道
